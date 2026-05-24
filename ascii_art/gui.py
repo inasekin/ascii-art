@@ -5,9 +5,9 @@ from pathlib import Path
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 
-import converter
-import settings as cfg
-import database as db
+from ascii_art import converter
+from ascii_art import settings as cfg
+from ascii_art import database as db
 
 
 def _strip_ansi(text: str) -> str:

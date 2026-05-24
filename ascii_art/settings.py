@@ -2,7 +2,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-_PATH = Path(__file__).parent / "settings.json"
+_PATH = Path(__file__).parent.parent / "settings.json"
 
 DEFAULTS: dict = {
     "width": 120,

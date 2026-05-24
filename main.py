@@ -1,4 +1,4 @@
-from gui import App
+from ascii_art.gui import App
 
 
 def main() -> None:
